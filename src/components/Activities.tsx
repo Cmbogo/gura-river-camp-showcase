@@ -15,58 +15,58 @@ import {
 const Activities = () => {
   const activities = [
     {
-      icon: <Waves className="h-8 w-8 text-sky-blue" />,
-      title: "White Water Rafting",
-      description: "Navigate thrilling rapids with our expert guides on the Gura River's most exciting stretches.",
-      duration: "3-4 hours",
-      groupSize: "4-8 people",
-      difficulty: "Intermediate",
-      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2070&auto=format&fit=crop"
-    },
-    {
-      icon: <Fish className="h-8 w-8 text-primary" />,
-      title: "Guided Fishing",
-      description: "Cast your line in pristine pools teeming with trout and other native fish species.",
-      duration: "2-6 hours",
-      groupSize: "1-4 people",
-      difficulty: "All levels",
-      image: "https://images.unsplash.com/photo-1445112098124-3e76dd67983c?q=80&w=2069&auto=format&fit=crop"
-    },
-    {
       icon: <Mountain className="h-8 w-8 text-nature-green" />,
-      title: "Nature Hiking",
-      description: "Explore scenic trails through old-growth forests and discover hidden waterfalls.",
-      duration: "2-5 hours",
-      groupSize: "2-12 people",
-      difficulty: "Easy to Hard",
+      title: "Forest Hiking",
+      description: "Explore many trails in the area with or without a guide. Dogs welcome on all trails.",
+      duration: "1-8 hours",
+      groupSize: "Any size",
+      difficulty: "Easy to Moderate",
       image: "https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=2070&auto=format&fit=crop"
     },
     {
-      icon: <Tent className="h-8 w-8 text-earth-brown" />,
-      title: "Premium Camping",
-      description: "Comfortable tents with quality amenities in beautiful riverside locations.",
-      duration: "Overnight",
-      groupSize: "2-6 people",
+      icon: <Waves className="h-8 w-8 text-sky-blue" />,
+      title: "River Swimming",
+      description: "Take a refreshing dip in the crystal-clear waters of the Gura River right at your campsite.",
+      duration: "Flexible",
+      groupSize: "Any size",
       difficulty: "Easy",
-      image: "https://images.unsplash.com/photo-1487730116645-74489c95b41b?q=80&w=2070&auto=format&fit=crop"
+      image: "/lovable-uploads/b9f47fb3-8b0a-45ea-9cb9-fdb759df6d3b.png"
     },
     {
-      icon: <Camera className="h-8 w-8 text-accent-foreground" />,
-      title: "Photography Tours",
-      description: "Capture stunning landscapes and wildlife with guidance from professional photographers.",
-      duration: "3-4 hours",
-      groupSize: "4-8 people",
-      difficulty: "All levels",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop"
+      icon: <Fish className="h-8 w-8 text-primary" />,
+      title: "Trout Fishing",
+      description: "Fish for trout in the national park area (4km hike with ranger required). Bring your own gear.",
+      duration: "Full day",
+      groupSize: "Small groups",
+      difficulty: "Moderate",
+      image: "https://images.unsplash.com/photo-1445112098124-3e76dd67983c?q=80&w=2069&auto=format&fit=crop"
+    },
+    {
+      icon: <Tent className="h-8 w-8 text-earth-brown" />,
+      title: "Camping",
+      description: "Simple facilities with compost toilets, hot showers, and kitchen banda. Bring your own gear.",
+      duration: "Overnight",
+      groupSize: "Families welcome",
+      difficulty: "Easy",
+      image: "/lovable-uploads/0cfdbe90-ee34-4928-86b1-44c68a2e7a2d.png"
     },
     {
       icon: <Flame className="h-8 w-8 text-destructive" />,
-      title: "Campfire Experiences",
-      description: "Evening gatherings with storytelling, s'mores, and stargazing by the river.",
-      duration: "2-3 hours",
-      groupSize: "8-20 people",
+      title: "BBQ & Relaxation",
+      description: "Enjoy barbecuing by the river or simply relax with a good book in peaceful forest setting.",
+      duration: "Flexible",
+      groupSize: "Any size",
       difficulty: "Easy",
-      image: "https://images.unsplash.com/photo-1471115853179-bb1d604434e0?q=80&w=2059&auto=format&fit=crop"
+      image: "/lovable-uploads/03c1249b-9884-4d31-816e-28002dda1955.png"
+    },
+    {
+      icon: <Mountain className="h-8 w-8 text-nature-green" />,
+      title: "National Park Hiking",
+      description: "Hike into Aberdares National Park with a ranger guide for wildlife viewing and extended trails.",
+      duration: "4-8 hours",
+      groupSize: "With ranger",
+      difficulty: "Moderate to Advanced",
+      image: "/lovable-uploads/cc80ab63-09ca-487a-9ef9-f3319b5b5a9d.png"
     }
   ];
 
@@ -81,8 +81,8 @@ const Activities = () => {
             Endless Adventures Await
           </h2>
           <p className="font-inter text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            From heart-pounding rapids to peaceful fishing spots, discover a world of outdoor activities 
-            designed to create unforgettable memories for adventurers of all skill levels.
+            From peaceful river swimming to challenging national park hikes, enjoy authentic outdoor activities 
+            in the pristine Aberdares forest reserve setting with no wild animals to worry about.
           </p>
         </div>
 

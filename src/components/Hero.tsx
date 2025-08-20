@@ -27,27 +27,22 @@ const Hero = () => {
 
         {/* Main heading */}
         <h1 className="font-playfair font-bold text-5xl md:text-7xl mb-6 leading-tight">
-          Adventure Awaits on the <span className="text-river-teal-light">Gura River</span>
+          Gura River <span className="text-river-teal-light">Camp</span>
         </h1>
         
         <p className="font-inter text-lg md:text-xl mb-8 text-white/90 max-w-2xl mx-auto leading-relaxed">
-          Escape to nature's paradise where crystal-clear waters meet pristine wilderness. 
-          Experience premium camping, thrilling water sports, and unforgettable memories.
+          A family campground on the largest river of the Aberdares. Experience hiking, swimming, 
+          and peaceful moments in the forest reserve just outside Aberdares National Park.
         </p>
 
-        {/* Location and rating */}
+        {/* Location and pricing */}
         <div className="flex items-center justify-center space-x-6 mb-10">
           <div className="flex items-center space-x-2">
             <MapPin className="h-5 w-5 text-river-teal-light" />
-            <span className="font-inter">Pristine River Location</span>
+            <span className="font-inter">2h 45min from Nairobi</span>
           </div>
           <div className="flex items-center space-x-2">
-            <div className="flex">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
-              ))}
-            </div>
-            <span className="font-inter">4.9/5 Rating</span>
+            <span className="font-inter font-semibold">3,000 KES/night per adult</span>
           </div>
         </div>
 
@@ -57,14 +52,14 @@ const Hero = () => {
             size="lg" 
             className="bg-white text-primary hover:bg-white/90 font-inter font-semibold px-8 py-3 text-lg shadow-glow"
           >
-            Book Your Adventure
+            WhatsApp: +254 788 335 068
           </Button>
           <Button 
             variant="outline" 
             size="lg"
             className="border-white text-white hover:bg-white hover:text-primary font-inter font-semibold px-8 py-3 text-lg"
           >
-            Explore Activities
+            Day visits: 1,000 KES
           </Button>
         </div>
       </div>

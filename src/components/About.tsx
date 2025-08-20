@@ -6,23 +6,23 @@ const About = () => {
   const features = [
     {
       icon: <Leaf className="h-8 w-8 text-nature-green" />,
-      title: "Eco-Friendly",
-      description: "Sustainable camping practices that preserve the natural beauty of the Gura River ecosystem."
+      title: "Forest Reserve Setting",
+      description: "Located in Kenya Forest Service managed land, outside the national park fence - safe and accessible."
     },
     {
       icon: <Users className="h-8 w-8 text-primary" />,
-      title: "Expert Guides",
-      description: "Professional guides with decades of river and wilderness experience to ensure your safety and enjoyment."
+      title: "Family Friendly",
+      description: "Perfect for families with children and dogs welcome. Simple facilities designed for authentic camping."
     },
     {
       icon: <Award className="h-8 w-8 text-yellow-500" />,
-      title: "Premium Experience",
-      description: "High-quality facilities and equipment providing comfort without compromising the authentic outdoor experience."
+      title: "Authentic Experience",
+      description: "No power on site for a true off-grid experience. Compost toilets, hot showers, and kitchen banda available."
     },
     {
       icon: <MapPin className="h-8 w-8 text-destructive" />,
-      title: "Prime Location",
-      description: "Strategically positioned along the most scenic and activity-rich stretch of the Gura River."
+      title: "Easy Access",
+      description: "2h 45min from Nairobi, mostly tarmac road. No 4WD required to reach the campground."
     }
   ];
 
@@ -37,9 +37,9 @@ const About = () => {
             Where Adventure Meets Tranquility
           </h2>
           <p className="font-inter text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Nestled along the pristine banks of the Gura River, our camp offers an unparalleled outdoor experience 
-            that combines thrilling adventure with peaceful moments in nature. Since 2015, we've been creating 
-            unforgettable memories for families, adventure seekers, and nature lovers from around the world.
+            The Gura River Camp is a family campground on the largest river of the Aberdares, located in the 
+            forest reserve managed by Kenya Forest Service, just outside the Aberdares National Park fence. 
+            Experience authentic camping with spaces for tents and rooftop tents in a pristine natural setting.
           </p>
         </div>
 
@@ -49,13 +49,13 @@ const About = () => {
               Your Gateway to River Adventures
             </h3>
             <p className="font-inter text-muted-foreground mb-6 leading-relaxed">
-              Our carefully designed camp provides the perfect balance between wilderness immersion and modern comfort. 
-              Whether you're seeking adrenaline-pumping water sports or peaceful moments by the campfire, 
-              Gura River Camp delivers experiences that reconnect you with nature and create lasting bonds with fellow adventurers.
+              Our camp features simple but essential facilities including compost toilets, hot showers, and a kitchen banda 
+              with sink and picnic tables. Located right on the riverbanks with beautiful views of native forest, 
+              it's the perfect base for your Aberdares adventure.
             </p>
             <p className="font-inter text-muted-foreground leading-relaxed">
-              With over 50 acres of pristine riverfront property, state-of-the-art facilities, and a commitment 
-              to environmental stewardship, we offer an authentic outdoor experience without sacrificing safety or comfort.
+              Note: We currently don't have power on site, so bring charging devices and lamps. WiFi is available 
+              at reception for essential communication. The location is safe with no wild animals to worry about.
             </p>
           </div>
           <div className="relative">

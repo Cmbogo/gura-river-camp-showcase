@@ -17,35 +17,35 @@ const Contact = () => {
     {
       icon: <MapPin className="h-6 w-6 text-primary" />,
       title: "Location",
-      details: ["Gura River Valley", "Mountain Region", "GPS: 45.1234, -123.5678"]
+      details: ["Aberdares Forest Reserve", "2h 45min from Nairobi", "Gituiga area"]
     },
     {
       icon: <Phone className="h-6 w-6 text-primary" />,
-      title: "Phone",
-      details: ["+1 (555) 123-4567", "Emergency: +1 (555) 987-6543"]
+      title: "Camp Manager",
+      details: ["Washingtone: +254 788 335 068", "WhatsApp preferred", "Responds within 1-2 hours"]
     },
     {
-      icon: <Mail className="h-6 w-6 text-primary" />,
-      title: "Email",
-      details: ["info@gurarivercamp.com", "reservations@gurarivercamp.com"]
+      icon: <DollarSign className="h-6 w-6 text-primary" />,
+      title: "Payment",
+      details: ["Mpesa Paybill: 220333", "Account: 20696", "Credit card accepted"]
     },
     {
       icon: <Clock className="h-6 w-6 text-primary" />,
-      title: "Office Hours",
-      details: ["Mon-Fri: 8am-6pm", "Sat-Sun: 9am-5pm", "24/7 Emergency Support"]
+      title: "Important Notes",
+      details: ["Limited mobile signal at camp", "Load directions before arrival", "Bring charging devices & lamps"]
     }
   ];
 
   const bookingInfo = [
     {
       icon: <Calendar className="h-6 w-6 text-nature-green" />,
-      title: "Best Season",
-      description: "May through October for optimal weather and water conditions"
+      title: "Overnight Rates",
+      description: "3,000 KES per adult per night • 1,500 KES per child (>3 years) • Dogs free"
     },
     {
       icon: <DollarSign className="h-6 w-6 text-nature-green" />,
-      title: "Pricing",
-      description: "Starting from $89/night per person with group discounts available"
+      title: "Day Visit Rates",
+      description: "1,000 KES per adult • 500 KES per child (≥4 years) • No cash - digital payments only"
     }
   ];
 
@@ -200,13 +200,13 @@ const Contact = () => {
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-primary font-inter font-semibold"
             >
-              Call Now: (555) 123-4567
+              Call: +254 788 335 068
             </Button>
             <Button 
               size="lg"
               className="bg-white text-primary hover:bg-white/90 font-inter font-semibold"
             >
-              Book Online
+              WhatsApp Booking
             </Button>
           </div>
         </div>
